@@ -1,0 +1,50 @@
+.contactContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+.contactTitle {
+  font-size: 2rem;
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+.contactSection {
+  margin-bottom: 2rem;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+}
+.contactInput, .contactTextarea {
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.contactButton {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.contactSocial {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.contactSocial a {
+  color: #1976d2;
+  font-weight: bold;
+  text-decoration: none;
+}

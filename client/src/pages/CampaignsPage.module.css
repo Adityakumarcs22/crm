@@ -1,0 +1,101 @@
+.campaignsContainer {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+.campaignsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.campaignsTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1976d2;
+}
+.campaignsAddBtn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.campaignsAddBtn:hover {
+  background: #125ea2;
+}
+.campaignsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+.campaignsTable th, .campaignsTable td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+.campaignsTable th {
+  background: #f5f5f5;
+  color: #1976d2;
+}
+.campaignsActions {
+  display: flex;
+  gap: 0.5rem;
+}
+.campaignsActionBtn {
+  background: #eee;
+  color: #1976d2;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.campaignsActionBtn:hover {
+  background: #1976d2;
+  color: #fff;
+}
+.campaignsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.campaignsInput {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.campaignsFormActions {
+  display: flex;
+  gap: 1rem;
+}
+.campaignsFormBtn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.campaignsFormBtn:hover {
+  background: #125ea2;
+}
+.campaignsSuccess {
+  color: green;
+  margin-bottom: 1rem;
+}
+.campaignsError {
+  color: red;
+  margin-bottom: 1rem;
+}

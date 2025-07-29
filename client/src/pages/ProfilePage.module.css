@@ -1,0 +1,59 @@
+.profileContainer {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profileAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  margin-bottom: 1rem;
+}
+.profileName {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+.profileEmail {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+.profileInfo {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.profileLabel {
+  font-weight: 600;
+  color: #1976d2;
+}
+.profileValue {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.profileActions {
+  display: flex;
+  gap: 1rem;
+}
+.profileButton {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.profileButton:hover {
+  background: #125ea2;
+}
