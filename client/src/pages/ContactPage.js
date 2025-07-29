@@ -40,15 +40,15 @@ function ContactPage() {
       </div>
       <div className={styles.contactSection}>
         <h3>Email</h3>
-        <p><a href="mailto:support@crm.com">support@crm.com</a></p>
+        <p><a href="mailto:support@crm.com">aditya1001@gmail.com</a></p>
       </div>
       <div className={styles.contactSection}>
         <h3>Phone</h3>
-        <p>+1-800-CRM-HELP</p>
+        <p>+919656000051</p>
       </div>
       <div className={styles.contactSection}>
         <h3>Office Address</h3>
-        <p>123 CRM Avenue, Business City, Country</p>
+        <p>123 CRM Avenue, Lucknow , India</p>
       </div>
       <form className={styles.contactForm} onSubmit={handleSubmit}>
         <input className={styles.contactInput} name="name" value={form.name} onChange={handleChange} type="text" placeholder="Your Name" required />
